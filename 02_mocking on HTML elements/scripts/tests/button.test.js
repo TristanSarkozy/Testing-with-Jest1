@@ -1,3 +1,4 @@
+* @jest-environment jsdom
 // Assign the buttonClick function to a constant
 const buttonClick = require("../button");
 
