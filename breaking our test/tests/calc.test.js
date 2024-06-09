@@ -1,4 +1,4 @@
-// Assigh the addition function to a constant
+// Assign the addition function to a constant
 const addition = require("../calc");
 
 // Add a top-level parent describe of calculator
