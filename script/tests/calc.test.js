@@ -8,7 +8,11 @@ describe("Calculator", () => {
         // Add a test method
         test("should return 42 for 20 + 22", () => {
             expect(addition(20, 22)).toBe(42);
-        })
+        });
+        // Add test code to return a value other than 42
+        test("should return 73 for 42 + 31", () => {
+            expect(addition(42, 31)).toBe(73);
+        });
     });
     describe("Subtraction", () => {
 
